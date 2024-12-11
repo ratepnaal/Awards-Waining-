@@ -1,7 +1,6 @@
 import gsap from "gsap"; // Importing the GSAP library for animations
 import { useGSAP } from "@gsap/react"; // Importing a hook to integrate GSAP with React
 import { ScrollTrigger } from "gsap/all"; // Importing ScrollTrigger for scroll-based animations
-
 import AnimatedTitle from "./AnimatedTitle"; // Importing a custom component for the animated title
 
 gsap.registerPlugin(ScrollTrigger); // Registering ScrollTrigger for usage in the GSAP library
